@@ -1,0 +1,14 @@
+.row{
+    background:  rgb(238, 238, 238);
+    width:90%;
+}
+
+h1{
+    padding-left: 120px;
+}
+a{
+    text-decoration: none;
+}
+.notRight{
+    display: none;
+}

@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1 class="text-secondary my-4">Bookmarker</h1>
+
+    <div class="container py-5 border-top border-bottom  ">
+        <div class="row mx-auto text-center">
+            <div class="column pt-3 gy-2">
+                <h3 class=" py-3">Bookmark your favorite sites</h3>
+                <p class="fw-normal fs-4">Site Name</p>
+                <input class="w-75 mx-auto rounded border border-secondary p-1" id="bookmarkName" type="text" placeholder="Bookmark Name">
+                <p id="notRight" class="notRight">this site is not right please write it in small letters</p>
+                
+         
+                <input class="w-75 mx-auto rounded border border-secondary p-1 d-block" id="urlName" type="text" placeholder="Website URL">
+                <button onclick="addUrl()" class="btn btn-outline-primary mt-3 mb-5 p-2">submit</button>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="container w-75">
+        <table class="table text-center mx-auto table-striped border mt-5">
+            <thead>
+                <th>Site Name</th>
+                <th>Site Url</th>
+                <th>Visit Site</th>
+                <th>Delete Site</th>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+    </div>
+    <!-- <div class="alert-danger notRight">Invalid data</div> -->
+    <div class="container ">
+      
+            <div class="column">
+                <p class="text-secondary-emphasis"><i class="fa-regular fa-copyright me-2 "></i>2019 Bookmarker Inc.</p>
+            </div>
+       
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
